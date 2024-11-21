@@ -81,11 +81,11 @@ let isEven = (num) => {
   console.log(reverseNumber(123456789));// output: 987654321
    ~~~
     9. Write a JavaScript function that accepts a string as a parameter and converts the first letter into upper case. Example: “javascript” => “Javascript” ?
-    ~~~js
+~~~js
       function capitalizeFirstLetter(str) {
      return str.charAt(0).toUpperCase() + str.slice(1,str.length);
     }
      console.log(capitalizeFirstLetter("javascript"));//output: Javascript
- ~~~
+~~~
 
   
